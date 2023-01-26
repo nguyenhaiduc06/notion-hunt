@@ -1,3 +1,6 @@
-<h1 class="text-xl font-bold underline">
-  Hello world!
-</h1>
+<script>
+  import Router from "svelte-spa-router";
+  import { routes } from "./routes";
+</script>
+
+<Router {routes} />

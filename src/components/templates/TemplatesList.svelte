@@ -31,11 +31,18 @@
     <h1 class="text-2xl font-semibold">
       🚀 Stay productive with these templates
     </h1>
-    <Link href="/">Browse all</Link>
   </div>
   <div class="grid grid-cols-2 gap-4 mt-4">
     {#each templates as { imageUrl, name, description }}
       <TemplateThumbnail {imageUrl} {name} {description} />
     {/each}
   </div>
+  <a href="/">
+    <div
+      class="border flex items-center justify-center p-4 text-gray-400 hover:border-gray-400 hover:text-gray-600 rounded mt-4"
+    >
+      <p>Browse all templates</p>
+      <i class="ri-arrow-right-line ml-2" />
+    </div>
+  </a>
 </div>

@@ -33,8 +33,8 @@
     </div>
   </div> -->
 
-  <div class="grid grid-cols-3 py-8">
-    <div class="col-span-2 border-r border-r-gray-200 pr-8 flex flex-col gap-8">
+  <div class="grid grid-cols-4 py-8">
+    <div class="col-span-3 border-r border-r-gray-200 pr-8 flex flex-col gap-8">
       <TemplatesList />
       <WidgetsList />
     </div>

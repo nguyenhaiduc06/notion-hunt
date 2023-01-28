@@ -1,11 +1,10 @@
 <script>
   import { link } from "svelte-spa-router";
+  import Button from "./shared/Button.svelte";
 </script>
 
-<div class="sticky top-0 bg-white">
-  <div
-    class="container mx-auto py-4 px-4 flex items-center gap-2 border-b border-b-gray-200"
-  >
+<div class="sticky top-0 bg-white flex items-center border-b border-b-gray-200">
+  <div class="container mx-auto py-4 flex items-center gap-2 ">
     <a href="/">
       <div
         class="bg-red-500 w-12 h-12 rounded flex items-center justify-center"
@@ -21,32 +20,22 @@
       <p class="text-sm text-gray-400">Search...</p>
     </div>
     <nav class="flex gap-2 flex-1">
-      <a
-        href="/templates"
-        class="px-3 py-1 rounded text-sm font-medium text-gray-900 hover:bg-gray-100"
-        use:link>Templates</a
-      >
-      <a
-        href="/widgets"
-        class="px-3 py-1 rounded text-sm font-medium text-gray-900 hover:bg-gray-100"
-        use:link>Widgets</a
-      >
-      <a
-        href="/"
-        class="px-3 py-1 rounded text-sm font-medium text-gray-900 hover:bg-gray-100"
-        >Creators</a
-      >
+      <a href="/templates" use:link>
+        <Button type="ghost">Templates</Button>
+      </a>
+      <a href="/widgets" use:link>
+        <Button type="ghost">Widgets</Button>
+      </a>
+      <a href="/widgets" use:link>
+        <Button type="ghost">Creators</Button>
+      </a>
     </nav>
 
-    <a
-      href="/"
-      class="px-3 py-1 rounded text-sm font-medium text-gray-900 hover:bg-gray-100"
-      >Log in</a
-    >
-    <a
-      href="/"
-      class="px-3 py-1 rounded text-sm text-white font-medium hover:bg-primary-600 bg-primary-500 shadow-sm"
-      >Sign up</a
-    >
+    <a href="/login">
+      <Button type="ghost">Log in</Button>
+    </a>
+    <a href="/login">
+      <Button type="filled">Log in</Button>
+    </a>
   </div>
 </div>

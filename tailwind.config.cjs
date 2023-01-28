@@ -9,7 +9,7 @@ module.exports = {
         primary: colors.red,
       },
       fontFamily: {
-        sans: ["Inter"],
+        sans: ["Inter", "san-serif"],
       },
       borderRadius: {
         DEFAULT: "5px",

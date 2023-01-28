@@ -1,5 +1,6 @@
 <script>
   import WidgetThumbnail from "./WidgetThumbnail.svelte";
+  import Link from "../shared/Link.svelte";
   const widgets = [
     {
       url: "",
@@ -31,7 +32,7 @@
     <h1 class="text-2xl font-semibold">
       ⚡️ Supercharge your Notion pages with widgets
     </h1>
-    <a href="/templates" class="text-sm text-gray-400">Browse all</a>
+    <Link href="/">Browse all</Link>
   </div>
   <div class="grid grid-cols-2 gap-4 mt-4">
     {#each widgets as widget}

@@ -1,4 +1,6 @@
 <script>
+  import Button from "../shared/Button.svelte";
+
   export let url;
   export let imageUrl;
   export let name;
@@ -14,11 +16,7 @@
         <img src={imageUrl} alt="" srcset="" class="min-w-full min-h-full" />
       </div>
       <h2 class="flex-1 font-semibold">{name}</h2>
-      <a
-        href="/"
-        class="px-5 py-3 text-sm font-medium hover:bg-black/5 rounded-md transition duration-300 ease-in-out"
-        >Install</a
-      >
+      <Button type="outlined">Install</Button>
     </div>
 
     <p class="h-16 text-sm text-gray-400">{description}</p>

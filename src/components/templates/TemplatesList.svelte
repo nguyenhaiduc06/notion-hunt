@@ -5,21 +5,28 @@
   const templates = [
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80",
+        "https://www.notion.so/cdn-cgi/image/format=auto,width=3840,quality=100/https://images.ctfassets.net/spoqsaf9291f/60lt66DzMzRuICZyJRWO3S/2e886418f8f2aa5b78a681b2454b8b4f/Desktop-Highlight-1.jpg",
       name: "Workflows from leading startups",
       description: "A collection of the best templates from startups",
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1674751128002-288756b5c4e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "https://www.notion.so/cdn-cgi/image/format=auto,width=3840,quality=100/https://images.ctfassets.net/spoqsaf9291f/3iJYDoppZ7y8h8d6ETtVhR/61111266cc5624b33ebb8d7f935fb7cc/Desktop-Highlight-2.jpg",
       name: "New year resolution hub",
       description:
         "The most comprehensive template for new year resolutions, planning and reflection.",
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1674751128002-288756b5c4e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "https://www.notion.so/cdn-cgi/image/format=auto,width=3840,quality=100/https://images.ctfassets.net/spoqsaf9291f/6WYAijso48QdEFfXRb2Mdl/0e3da79ed376c57e492a81449b1f992b/Desktop-Highlight-3.jpg",
       name: "New year resolution hub",
+      description:
+        "The most comprehensive template for new year resolutions, planning and reflection.",
+    },
+    {
+      imageUrl:
+        "https://www.notion.so/cdn-cgi/image/format=auto,width=3840,quality=100/https://images.ctfassets.net/spoqsaf9291f/6WYAijso48QdEFfXRb2Mdl/0e3da79ed376c57e492a81449b1f992b/Desktop-Highlight-3.jpg",
+      name: "Minimalist annual review and reset",
       description:
         "The most comprehensive template for new year resolutions, planning and reflection.",
     },

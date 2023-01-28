@@ -1,8 +1,20 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: colors.red,
+      },
+      fontFamily: {
+        sans: ["Inter"],
+      },
+      borderRadius: {
+        DEFAULT: "5px",
+      },
+    },
   },
   plugins: [require("@tailwindcss/forms")],
 };

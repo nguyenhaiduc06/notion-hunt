@@ -1,7 +1,5 @@
-import Dashboard from "./dashboard.svelte";
-import Login from "./login.svelte";
+import PageHome from "./PageHome.svelte";
 
 export const routes = {
-  "/login": Login,
-  "/dashboard": Dashboard,
+  "/": PageHome,
 };

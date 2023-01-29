@@ -29,13 +29,16 @@
       <a href="/widgets" use:link>
         <Button type="ghost">Creators</Button>
       </a>
+      <a href="/widgets" use:link>
+        <Button type="ghost">Blog</Button>
+      </a>
     </nav>
 
     <a href="/login">
       <Button type="ghost">Log in</Button>
     </a>
     <a href="/login">
-      <Button type="filled">Log in</Button>
+      <Button type="filled">Sign up</Button>
     </a>
   </div>
 </div>

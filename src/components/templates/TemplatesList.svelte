@@ -33,20 +33,22 @@
   ];
 </script>
 
-<div>
+<div class="flex flex-col gap-4">
   <div class="flex items-baseline justify-between">
     <h1 class="text-2xl font-semibold">
       🚀 Stay productive with these templates
     </h1>
   </div>
-  <div class="grid grid-cols-2 gap-4 mt-4">
+
+  <div class="grid grid-cols-2 gap-x-4 gap-y-8">
     {#each templates as { imageUrl, name, description }}
       <TemplateThumbnail {imageUrl} {name} {description} />
     {/each}
   </div>
+
   <a href="/">
     <div
-      class="border flex items-center justify-center p-4 text-gray-400 hover:border-gray-400 hover:text-gray-600 rounded mt-4"
+      class="border flex items-center justify-center p-4 text-gray-800 bg-white hover:border-gray-300 rounded mt-4"
     >
       <p>Browse all templates</p>
       <i class="ri-arrow-right-line ml-2" />

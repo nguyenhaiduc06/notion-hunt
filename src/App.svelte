@@ -4,7 +4,7 @@
   import { routes } from "./routes";
 </script>
 
-<div class="bg-white text-black/80">
+<div class="bg-gray-50 text-black/80">
   <NavBar />
   <Router {routes} />
 </div>

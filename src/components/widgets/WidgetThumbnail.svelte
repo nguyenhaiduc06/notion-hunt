@@ -9,20 +9,20 @@
 
 <a href={url}>
   <div
-    class="flex flex-col bg-white border border-black/10 transition duration-300 ease-in-out rounded-md overflow-hidden p-4"
+    class="flex flex-col bg-white border border-black/10 transition duration-300 ease-in-out rounded-md overflow-hidden p-4 gap-4"
   >
-    <div class="flex items-center gap-3 mb-4">
-      <div class="w-8 h-8 rounded-md overflow-hidden">
+    <div class="flex items-start gap-2">
+      <div class="w-12 h-12 rounded-md overflow-hidden">
         <img src={imageUrl} alt="" srcset="" class="min-w-full min-h-full" />
       </div>
-      <h2 class="flex-1 font-semibold">{name}</h2>
-      <Button type="outlined">Install</Button>
+      <div class="flex-1">
+        <h2 class="font-semibold">{name}</h2>
+        <p class="text-sm text-gray-400 text-ellipsis">{description}</p>
+      </div>
     </div>
 
-    <p class="h-16 text-sm text-gray-400">{description}</p>
-
-    <div class="flex items-center gap-4">
-      <a href="/" class="flex items-center gap-2">
+    <div class="flex items-center gap-2">
+      <a href="/" class="flex items-center gap-1">
         <div class="w-5 h-5 rounded-full bg-black/10" />
         <span class="text-[13px] text-black/40 hover:text-black/60 font-medium">
           Hai Duc Nguyen
@@ -33,6 +33,8 @@
         <i class="ri-download-cloud-line text-black/40" />
         <p class="text-xs font-medium text-black/40">10,536</p>
       </span>
+      <div class="flex-1" />
+      <Button type="outlined">Install</Button>
     </div>
   </div>
 </a>

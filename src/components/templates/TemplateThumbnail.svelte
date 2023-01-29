@@ -1,4 +1,5 @@
 <script>
+  import { link } from "svelte-spa-router";
   import Button from "../shared/Button.svelte";
 
   export let imageUrl;
@@ -6,7 +7,7 @@
   export let description;
 </script>
 
-<a href="/">
+<a href="/template" use:link>
   <div class="flex flex-col">
     <div
       class="aspect-video flex items-center justify-center rounded-md overflow-hidden border"

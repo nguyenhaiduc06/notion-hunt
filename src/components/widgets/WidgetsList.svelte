@@ -3,7 +3,7 @@
   import Link from "../shared/Link.svelte";
   const widgets = [
     {
-      url: "",
+      url: "/widget",
       imageUrl:
         "https://www.raycast.com/_next/image?url=https%3A%2F%2Ffiles.raycast.com%2Frfi802gj8ifgy18mzdaflp9iun6l&w=64&q=75",
       name: "OpenAI GPT3",
